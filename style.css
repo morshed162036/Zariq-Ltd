@@ -781,7 +781,7 @@ a.dtbtn:hover {
 }
 /* Banner Style Two */
 .banner2 {
-  background: url(assets/images/cn-bg.jpg);
+  background: url(assets/images/slider/banner1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1489,6 +1489,7 @@ a.em-active-button:hover {
 .section_button {
   text-align: right;
 }
+
 .phone_number h5 {
   letter-spacing: 1px;
   font-weight: 500;
@@ -5721,12 +5722,14 @@ a.em-active-button:hover {
   text-align: center;
   border-radius: 5px;
   margin-bottom: 30px;
+  height: 16rem;
 }
 .single_contact_now_inner {
   border: 2px solid #ddd;
   padding: 30px 20px 15px;
   border-radius: 5px;
   transition: 0.5s;
+  height: 13rem;
 }
 .single_contact_now_icon i {
   color: #0c5adb;
@@ -5902,8 +5905,9 @@ a.em-active-button:hover {
   font-size: small;
 }
 .guote .slider_button {
-  margin: 1.3rem 1rem 0 -13rem;
+  margin: 1.3rem 0 0 -14rem;
 }
+
 .style_two.tp-mg .row.sbc_bg_box {
   margin-bottom: 0;
   margin-top: -80px;
@@ -7280,5 +7284,81 @@ a.em-active-button:hover {
   }
   100% {
     box-shadow: none;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 990px) {
+  .guote .container .row.sbc_bg_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .guote .container .row.sbc_bg_box .left-side {
+    margin-right: 0;
+  }
+  .guote .container .row.sbc_bg_box .right-side {
+    margin-top: 1rem;
+    margin-right: 0;
+    text-align: center;
+  }
+  .guote .container .row.sbc_bg_box .right-side > p {
+    padding: 0, 2em;
+    /* text-align: center; */
+    font-size: medium;
+  }
+  .guote .slider_button {
+    margin: 0;
+  }
+  .service_area .section_button {
+    text-align: center;
+    display: contents;
+  }
+  .case_study_area .section_button {
+    display: contents;
+    text-align: center;
+  }
+  .team_area .section_button {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 599px) {
+  .guote .container .row.sbc_bg_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .guote .container .row.sbc_bg_box .left-side {
+    margin-right: 0;
+  }
+  .guote .container .row.sbc_bg_box .right-side {
+    margin-top: 1rem;
+    margin-right: 0;
+    text-align: center;
+  }
+  .guote .container .row.sbc_bg_box .right-side > p {
+    padding: 0, 2em;
+    /* text-align: center; */
+    font-size: medium;
+  }
+  .guote .slider_button {
+    margin: 0;
+  }
+  .service_area .section_button {
+    text-align: center;
+    display: contents;
+  }
+  .about_area .single_about_thumb {
+    display: none;
+  }
+  .case_study_area .section_button {
+    display: contents;
+    text-align: center;
+  }
+  .team_area .section_button {
+    text-align: center;
   }
 }
