@@ -2154,7 +2154,7 @@ a.em-active-button:hover {
   overflow: hidden;
 }
 .techno_flipbox_font .flipbox_desc p {
-  color: #fff;
+  color: #000000;
 }
 .techno_flipbox .flipbox_title h3 {
   font-size: 22px;
@@ -2162,7 +2162,7 @@ a.em-active-button:hover {
   text-transform: capitalize;
   -webkit-transition: all 0.7s ease 0s;
   transition: all 0.7s ease 0s;
-  color: #fff;
+  color: #000000;
 }
 .techno_flipbox .techno_flipbox_back {
   position: absolute;
